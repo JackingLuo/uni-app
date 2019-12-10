@@ -9,7 +9,7 @@
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "太平财险",
     "navigationBarBackgroundColor": "#1989fa",
-    "backgroundColor": "#1989fa"
+    "backgroundColor": "#fff"
   },
   "tabBar": {
     "color": "#7d7e80",

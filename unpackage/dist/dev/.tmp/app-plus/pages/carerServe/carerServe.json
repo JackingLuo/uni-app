@@ -1,7 +1,5 @@
 {
   "navigationBarTitleText": "车主服务",
-  "titleNView": {
-    "type": "transparent"
-  },
+  "enablePullDownRefresh": true,
   "usingComponents": {}
 }

@@ -1,4 +1,5 @@
 {
   "navigationBarTitleText": "车主服务",
+  "enablePullDownRefresh": true,
   "usingComponents": {}
 }

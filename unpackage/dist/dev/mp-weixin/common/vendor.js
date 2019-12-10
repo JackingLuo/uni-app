@@ -8664,7 +8664,7 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/home/home": { "navigationBarTitleText": "首页", "usingComponents": {} }, "pages/insurMarket/insurMarket": { "usingComponents": {} }, "pages/carerServe/carerServe": { "navigationBarTitleText": "车主服务", "usingComponents": {} }, "pages/aboutMe/aboutMe": { "navigationBarTitleText": "我的", "usingComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "太平财险", "navigationBarBackgroundColor": "#1989fa", "backgroundColor": "#1989fa" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/home/home": { "navigationBarTitleText": "首页", "usingComponents": {} }, "pages/insurMarket/insurMarket": { "usingComponents": { "uni-card": "/components/uni-card" } }, "pages/carerServe/carerServe": { "navigationBarTitleText": "车主服务", "enablePullDownRefresh": true, "usingComponents": {} }, "pages/aboutMe/aboutMe": { "usingComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "太平财险", "navigationBarBackgroundColor": "#1989fa", "backgroundColor": "#fff" } };exports.default = _default;
 
 /***/ }),
 
