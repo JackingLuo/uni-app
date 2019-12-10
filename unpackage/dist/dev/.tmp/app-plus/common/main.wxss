@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+page,page{
+	font-size: 26rpx;
+}
+/* 下面这一行home下面的轮播90%(小程序和app不生效) */
+/* .mySwiper .uni-swiper-wrapper{
+	overflow: visible;
+} */
+

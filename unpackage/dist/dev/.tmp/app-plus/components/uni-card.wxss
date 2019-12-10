@@ -1,0 +1,66 @@
+
+.cardBody.data-v-fc2c7f88{
+	margin: 30rpx 4% 0 4%;
+	width: 92%;
+	border-radius: 12rpx;
+	-webkit-box-shadow: 0 4px 10px #ececec;
+	        box-shadow: 0 4px 10px #ececec;
+}
+.oneItem.data-v-fc2c7f88{
+	width:100%;
+	height: 240rpx;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	border-top-left-radius: 12rpx;
+	border-top-right-radius: 12rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+	    -ms-flex-pack:justify;
+	        justify-content:space-between;
+}
+.itemLeft.data-v-fc2c7f88{
+	padding: 24rpx;
+}
+.leftDetail.data-v-fc2c7f88{
+	color: #666;
+	font-size: 20rpx;
+	margin: 20rpx;
+}
+.leftPrice.data-v-fc2c7f88{
+	color: #007AFF;
+	font-weight: 600;
+	font-size: 26rpx;
+}
+.itemRight uni-image.data-v-fc2c7f88,.itemRight image.data-v-fc2c7f88{
+	width: 240rpx;
+	height: 240rpx;
+}
+.bottomTip.data-v-fc2c7f88{
+	border: 1px solid #ececec;
+	padding: 28rpx 0;
+	border-top: none;
+	border-bottom-right-radius: 12rpx;
+	border-bottom-left-radius: 12rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: center;
+}
+.botItem.data-v-fc2c7f88{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.sonOther.data-v-fc2c7f88{
+	color: #808080;
+	margin-top: 10rpx;
+	font-size: 24rpx;
+}
+

@@ -1,0 +1,119 @@
+
+.homeBody.data-v-5fb281cc{
+	position: relative;
+	font-size: 26rpx;
+}
+.content.data-v-5fb281cc{
+	width:100%;
+	height: 436rpx;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.content uni-image.data-v-5fb281cc{
+	width: 100%;
+}
+.topTit.data-v-5fb281cc{
+	position: absolute;
+	top: 320rpx;
+	left: 50%;
+	z-index: 9;
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	width: 92%;
+	background-color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: center;
+	border-radius: 10rpx;
+	-webkit-box-shadow: 0 4px 10px #ececec;
+	        box-shadow: 0 4px 10px #ececec;
+	padding: 30rpx 0;
+}
+.flex-item.data-v-5fb281cc{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+.topTit uni-image.data-v-5fb281cc,.topTit image.data-v-5fb281cc{
+	width: 60%;
+	height: 120rpx;
+}
+.hotFunc.data-v-5fb281cc{
+	margin-top: 160rpx;
+}
+.funcTit.data-v-5fb281cc,.goodProduct.data-v-5fb281cc{
+	padding: 0 40rpx;
+	font-size: 32rpx;
+	font-weight: 600;
+}
+.more.data-v-5fb281cc{
+	font-size: 26rpx;
+	font-weight: 500;
+	float: right;
+}
+.iconsBox.data-v-5fb281cc{
+	width:100%;
+	text-align: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.iconItem.data-v-5fb281cc{
+	width: 25%;
+}
+.iconItem uni-image.data-v-5fb281cc,.iconItem image.data-v-5fb281cc{
+	width: 60%;
+	height: 120rpx;
+}
+.goodProduct.data-v-5fb281cc{
+	margin-top: 60rpx;
+}
+.goodTit.data-v-5fb281cc{
+	padding-bottom: 30rpx;
+}
+.swiper.data-v-5fb281cc{
+	height: 240rpx;
+	margin-bottom: 40rpx;
+}
+.oneItem.data-v-5fb281cc{
+	width:100%;
+	height: 240rpx;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	border-radius: 12rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+	    -ms-flex-pack:justify;
+	        justify-content:space-between;
+}
+.itemLeft.data-v-5fb281cc{
+	padding: 24rpx;
+}
+.leftDetail.data-v-5fb281cc{
+	color: #666;
+	font-size: 20rpx;
+	margin: 20rpx;
+}
+.leftPrice.data-v-5fb281cc{
+	color: #007AFF;
+	font-weight: 600;
+	font-size: 26rpx;
+}
+.itemRight uni-image.data-v-5fb281cc,.itemRight image.data-v-5fb281cc{
+	width: 240rpx;
+	height: 240rpx;
+}
+

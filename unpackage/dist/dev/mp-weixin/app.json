@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/insurMarket/insurMarket",
+    "pages/carerServe/carerServe",
+    "pages/aboutMe/aboutMe"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "太平财险",
+    "navigationBarBackgroundColor": "#1989fa",
+    "backgroundColor": "#1989fa"
+  },
+  "tabBar": {
+    "color": "#7d7e80",
+    "selectedColor": "#1989fa",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/images/tab_home.png",
+        "selectedIconPath": "static/images/tab_home_active.png"
+      },
+      {
+        "pagePath": "pages/insurMarket/insurMarket",
+        "text": "保险超市",
+        "iconPath": "static/images/tab_market.png",
+        "selectedIconPath": "static/images/tab_market_active.png"
+      },
+      {
+        "pagePath": "pages/carerServe/carerServe",
+        "text": "车主服务",
+        "iconPath": "static/images/tab_carer.png",
+        "selectedIconPath": "static/images/tab_carer_active.png"
+      },
+      {
+        "pagePath": "pages/aboutMe/aboutMe",
+        "text": "我的",
+        "iconPath": "static/images/tab_my.png",
+        "selectedIconPath": "static/images/tab_my_active.png"
+      }
+    ],
+    "condition": {
+      "current": 0,
+      "list": [
+        {
+          "name": "insurMarket",
+          "path": "pages/insurMarket/insurMarket",
+          "query": "interval=4000&autoplay=false"
+        }
+      ]
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": ""
+    }
+  },
+  "usingComponents": {}
+}

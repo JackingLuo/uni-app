@@ -1,0 +1,12 @@
+{
+  "titleNView": {
+    "searchInput": {
+      "backgroundColor": "#fff",
+      "borderRadius": "6px",
+      "placeholder": "请输入搜索内容"
+    }
+  },
+  "usingComponents": {
+    "uni-card": "/components/uni-card"
+  }
+}
