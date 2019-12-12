@@ -78,6 +78,21 @@
 						text:'6万',
 						other:"最高保额"
 					}]
+				},{
+					title:'产品标题',
+					details:'产品描述',
+					price:'30元起',
+					botTips:[{
+						text:'12-26岁',
+						other:"承保年龄"
+					},{
+						text:'1年',
+						other:"保障期限"
+						
+					},{
+						text:'6万',
+						other:"最高保额"
+					}]
 				}],
 				current:0
 			}

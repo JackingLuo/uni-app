@@ -8634,7 +8634,7 @@ main();
 
 /***/ }),
 
-/***/ 57:
+/***/ 53:
 /*!*****************************************************************!*\
   !*** D:/Study/HBuilderProject/uni_app/static/images/bgi_hw.png ***!
   \*****************************************************************/
@@ -8656,6 +8656,134 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 
 /***/ }),
 
+/***/ 61:
+/*!*********************************************************************!*\
+  !*** D:/Study/HBuilderProject/uni_app/static/images/video_img1.png ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/img/video_img1.5e6f8702.png";
+
+/***/ }),
+
+/***/ 62:
+/*!*********************************************************************!*\
+  !*** D:/Study/HBuilderProject/uni_app/static/images/video_img2.png ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/img/video_img2.9fe2daf1.png";
+
+/***/ }),
+
+/***/ 66:
+/*!****************************************************************!*\
+  !*** D:/Study/HBuilderProject/uni_app/static/images/mybgi.png ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,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"
+
+/***/ }),
+
+/***/ 67:
+/*!**************************************************************************!*\
+  !*** D:/Study/HBuilderProject/uni_app/common/dictionaries/aboutMeDic.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var topTit = [
+{
+  icon: "../../static/images/home_baodan.png",
+  lable: "查看网络" },
+
+{
+  icon: "../../static/images/my_lipei.png",
+  lable: "获取定位" },
+
+{
+  icon: "../../static/images/my_fuwu.png",
+  lable: "测试请求" },
+
+{
+  icon: "../../static/images/my_xinxi.png",
+  lable: "我的信息" }];
+
+
+var detailedInfo = [
+{
+  title: '我的保单',
+  child: [
+  {
+    icon: "../../static/images/icon_toubao.png",
+    lable: "投保资料" },
+
+  {
+    icon: "../../static/images/icon_baodan.png",
+    lable: "电子保单" },
+
+  {
+    icon: "../../static/images/icon_wangdian.png",
+    lable: "网点查询" },
+
+  {
+    icon: "../../static/images/icon_etc.png",
+    lable: "ETC申领" }] },
+
+
+{
+  title: '我的理赔',
+  child: [
+  {
+    icon: "../../static/images/icon_shigu.png",
+    lable: "事故拖车" },
+
+  {
+    icon: "../../static/images/icon_tuoche.png",
+    lable: "故障拖车" },
+
+  {
+    icon: "../../static/images/icon_dadian.png",
+    lable: "搭电" },
+
+  {
+    icon: "../../static/images/icon_huanche.png",
+    lable: "换胎" }] },
+
+
+{
+  title: '我的服务',
+  child: [
+  {
+    icon: "../../static/images/icon_saoma.png",
+    lable: "扫码挪车" },
+
+  {
+    icon: "../../static/images/icon_chike.png",
+    lable: "齿科洁牙预约" },
+
+  {
+    icon: "../../static/images/icon_qixiang.png",
+    lable: "气象查询" },
+
+  {
+    icon: "../../static/images/icon_qixiang.png",
+    lable: "业务员专区" }] }];var _default =
+
+
+
+
+{
+  topTit: topTit,
+  detailedInfo: detailedInfo };exports.default = _default;
+
+/***/ }),
+
 /***/ 7:
 /*!********************************************************************!*\
   !*** D:/Study/HBuilderProject/uni_app/pages.json?{"type":"style"} ***!
@@ -8664,7 +8792,130 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/home/home": { "navigationBarTitleText": "首页", "usingComponents": {} }, "pages/insurMarket/insurMarket": { "usingComponents": { "uni-card": "/components/uni-card" } }, "pages/carerServe/carerServe": { "navigationBarTitleText": "车主服务", "enablePullDownRefresh": true, "usingComponents": {} }, "pages/aboutMe/aboutMe": { "usingComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "太平财险", "navigationBarBackgroundColor": "#1989fa", "backgroundColor": "#fff" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/home/home": { "navigationBarTitleText": "首页", "usingComponents": {} }, "pages/insurMarket/insurMarket": { "navigationBarTitleText": "保险超市", "usingComponents": { "uni-card": "/components/uni-card" } }, "pages/carerServe/carerServe": { "navigationBarTitleText": "车主服务", "enablePullDownRefresh": true, "onReachBottomDistance": 40, "usingComponents": {} }, "pages/aboutMe/aboutMe": { "navigationBarTitleText": "我的", "usingComponents": {} }, "pages/otherPage/otherPage": {} }, "globalStyle": { "navigationBarTextStyle": "white", "navigationBarTitleText": "太平财险", "navigationBarBackgroundColor": "#1989fa", "backgroundColor": "#fff" } };exports.default = _default;
+
+/***/ }),
+
+/***/ 74:
+/*!******************************************************************!*\
+  !*** D:/Study/HBuilderProject/uni_app/common/utils/myRequest.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;} /*
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               封装一个请求类来统一处理错误请求,在页面中只用处理正确的返回
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               get方法,get请求
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               post方法,post请求
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               stop方法,终止请求方法
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               */
+//公共前缀
+var baseUrl = "";
+
+//是否是完整url
+var completeUrl = function completeUrl(url) {
+  if (!url.includes('://')) {
+    url = baseUrl + url;
+  }
+  return url;
+};var
+Ajax = /*#__PURE__*/function () {
+  function Ajax(result) {_classCallCheck(this, Ajax);
+    this.url = completeUrl(result.url);
+    this.params = result.params || {};
+    this.method = result.method || "GET";
+    this.showLoad = result.showLoad || true;
+    this.other = result.other || {};
+    this.requestTask = null;
+  }_createClass(Ajax, [{ key: "request", value: function request()
+    {var _this = this;
+      if (this.showLoad) {
+        uni.showToast({
+          title: '请稍候...',
+          icon: "loading" });
+
+      }
+      return new Promise(function (resolve, reject) {
+        _this.requestTask = uni.request(_objectSpread({
+          url: _this.url,
+          method: _this.method,
+          data: _this.params },
+        _this.other, {
+          success: function success(res) {
+            if (_this.showLoad) uni.hideToast();
+            //根据自己的业务场景来调整
+            if (res.data.succ) {
+              resolve(res.data);
+            } else {
+              uni.showToast({
+                title: res.data.errMsg,
+                duration: 2000,
+                icon: "none" });
+
+              reject(res.data);
+            }
+          },
+          fail: function fail(err) {
+            if (_this.showLoad) uni.hideToast();
+            uni.showToast({
+              title: err.errMsg,
+              duration: 2000,
+              icon: "none" });
+
+            reject(err);
+          } }));
+
+      });
+    } }, { key: "get", value: function get()
+    {
+      this.method = "GET";
+      return this.request();
+    } }, { key: "post", value: function post()
+    {
+      this.method = "POST";
+      return this.request();
+    } }, { key: "stop", value: function stop()
+    {//中断请求方法
+      if (this.requestTask) {
+        uni.hideToast();
+        this.requestTask.abort();
+      }
+    } }]);return Ajax;}();var _default =
+
+Ajax;
+// const myAjax=(url,params,method,showLoad,other)=>{
+// 	if(showLoad){
+// 		uni.showToast({
+// 		    title: '请稍候...',
+// 			icon:"loading"
+// 		});
+// 	}
+// 	let requestTask = null;
+// 	return new Promise((resolve, reject)=>{
+// 		requestTask = uni.request({
+// 		    url: completeUrl(url),
+// 			method:method,
+// 		    data:params,
+// 			...other
+// 		    success: function(res) {
+// 				if(showLoad)uni.hideToast();
+// 		        resolve(res.data)
+// 		    },
+// 			fail:function(err){
+// 				if(showLoad)uni.hideToast();
+// 				uni.showToast({
+// 				    title: err.errMsg,
+// 					duration: 2000,
+// 					icon:"none"
+// 				});
+// 				reject(err)
+// 			}
+// 		})
+// 	})
+// }
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 

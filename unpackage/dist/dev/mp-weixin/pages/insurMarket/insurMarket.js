@@ -122,7 +122,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var uniCard = function uniCard() {return Promise.all(/*! import() | components/uni-card */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uni-card")]).then(__webpack_require__.bind(null, /*! ../../components/uni-card.vue */ 49));};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var uniCard = function uniCard() {return Promise.all(/*! import() | components/uni-card */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uni-card")]).then(__webpack_require__.bind(null, /*! ../../components/uni-card.vue */ 48));};var _default =
 
 
 
@@ -188,6 +188,21 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
         lable: '家财' }],
 
       firstList: [{
+        title: '产品标题',
+        details: '产品描述',
+        price: '30元起',
+        botTips: [{
+          text: '12-26岁',
+          other: "承保年龄" },
+        {
+          text: '1年',
+          other: "保障期限" },
+
+        {
+          text: '6万',
+          other: "最高保额" }] },
+
+      {
         title: '产品标题',
         details: '产品描述',
         price: '30元起',

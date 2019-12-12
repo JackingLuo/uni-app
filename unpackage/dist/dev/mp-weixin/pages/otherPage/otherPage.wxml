@@ -1,0 +1,1 @@
+<view><button type="primary" data-event-opts="{{[['tap',[['startRequest',['$event']]]]]}}" bindtap="__e">开始请求</button><button type="primary" data-event-opts="{{[['tap',[['stopRequest',['$event']]]]]}}" bindtap="__e">终止请求</button></view>

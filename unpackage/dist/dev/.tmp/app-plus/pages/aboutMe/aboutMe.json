@@ -1,6 +1,5 @@
 {
-  "titleNView": {
-    "type": "transparent"
-  },
+  "navigationBarTitleText": "我的",
+  "titleNView": false,
   "usingComponents": {}
 }

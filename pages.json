@@ -12,6 +12,7 @@
 		{
 			"path": "pages/insurMarket/insurMarket",
 			"style": {
+				"navigationBarTitleText": "保险超市",
 				"app-plus": {
 					"titleNView": {
 						"searchInput": {
@@ -27,20 +28,24 @@
 			"path": "pages/carerServe/carerServe",
 			"style": {
 				"navigationBarTitleText": "车主服务",
-				"enablePullDownRefresh": true
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance":40
 			}
 		},
 		{
 			"path": "pages/aboutMe/aboutMe",
 			"style": {
+				"navigationBarTitleText": "我的",
 				"app-plus": {
-					"titleNView": {
-						"type": "transparent"
-					}
+					"titleNView": false 
 				}
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/otherPage/otherPage",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "太平财险",
@@ -75,15 +80,6 @@
 	            "iconPath": "static/images/tab_my.png",
 	            "selectedIconPath": "static/images/tab_my_active.png"
 	        }
-	    ],
-		"condition": {
-		    "current": 0,
-		    "list": [{
-		            "name": "insurMarket",
-		            "path": "pages/insurMarket/insurMarket",
-		            "query": "interval=4000&autoplay=false"
-		        }
-		    ]
-		}
+	    ]
 	}
 }

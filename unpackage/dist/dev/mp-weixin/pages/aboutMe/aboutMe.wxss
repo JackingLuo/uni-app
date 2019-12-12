@@ -1,0 +1,131 @@
+
+.myBody.data-v-0f8a7274{
+	position: relative;
+	width: 100%;
+}
+.content.data-v-0f8a7274{
+	width:100%;
+	height: 474rpx;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.location.data-v-0f8a7274{
+	position: absolute;
+	z-index: 9;
+	top: 60rpx;
+	
+	left: 0;
+	width: 100%;
+	padding: 0 4%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.userInfo.data-v-0f8a7274{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.getQr.data-v-0f8a7274{
+	height: 60rpx;
+}
+.iconOther.data-v-0f8a7274{
+	float: right;
+	color: #fff;
+	font-size: 50rpx;
+	margin-right: 30rpx;
+}
+.leftInfo.data-v-0f8a7274{
+	padding: 8rpx;
+	overflow: hidden;
+	margin-right: 20rpx;
+}
+.head.data-v-0f8a7274{
+	border-radius: 50%;
+	width: 120rpx;
+	height: 120rpx;
+}
+.rightInfo.data-v-0f8a7274{
+	color: #fff;
+}
+.carNo.data-v-0f8a7274{
+	font-size: 32rpx;
+	font-weight: 700;
+	padding-bottom:12rpx;
+}
+.titleList.data-v-0f8a7274{
+	position: absolute;
+	top: 300rpx;
+	
+	left: 0;
+	width: 92%;
+	margin: 0 4%;
+	z-index: 9;
+}
+.optionsBox.data-v-0f8a7274{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	background-color: #fff;
+	-webkit-box-shadow: 0 4px 10px #ececec;
+	        box-shadow: 0 4px 10px #ececec;
+	padding: 30rpx 0;
+	border-radius: 12rpx;
+}
+.flex-item.data-v-0f8a7274{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	text-align: center;
+}
+.flex-item uni-image.data-v-0f8a7274,.flex-item image.data-v-0f8a7274{
+	width: 100rpx;
+	height: 100rpx !important;
+}
+.allMoudle.data-v-0f8a7274{
+	
+	width: 92%;
+	margin: 0 4%;
+	padding-bottom: 40rpx;
+}
+.aMoudle.data-v-0f8a7274{
+	margin-top: 40rpx;
+	-webkit-box-shadow: 0 4px 10px #ececec;
+	        box-shadow: 0 4px 10px #ececec;
+	padding: 0 30rpx;
+}
+.title.data-v-0f8a7274{
+	padding: 30rpx;
+	font-size: 34rpx;
+	font-weight: 700;
+}
+.iconBox.data-v-0f8a7274{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap:wrap;
+	    -ms-flex-wrap:wrap;
+	        flex-wrap:wrap;
+}
+.aIcon.data-v-0f8a7274{
+	width: 25%;
+	text-align: center;
+	margin-bottom: 30rpx;
+}
+.aIcon uni-image.data-v-0f8a7274,.aIcon image.data-v-0f8a7274{
+	width: 110rpx;
+	height: 110rpx !important;
+	border: 1px dashed #777;
+}
+.lickIcon.data-v-0f8a7274{
+	float: right;
+	font-size: 24rpx;
+}
+

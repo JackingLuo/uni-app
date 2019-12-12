@@ -129,16 +129,6 @@
           "selectedIconPath": "static/images/tab_my_active.png"
         }
       ],
-      "condition": {
-        "current": 0,
-        "list": [
-          {
-            "name": "insurMarket",
-            "path": "pages/insurMarket/insurMarket",
-            "query": "interval=4000&autoplay=false"
-          }
-        ]
-      },
       "borderStyle": "rgba(0,0,0,0.4)",
       "height": "50px",
       "child": [

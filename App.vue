@@ -13,6 +13,8 @@
 </script>
 
 <style>
+	
+	@import "./static/css/icon.css";
 	/*每个页面公共css */
 	page,body{
 		font-size: 26upx;

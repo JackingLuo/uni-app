@@ -3,7 +3,8 @@
     "pages/home/home",
     "pages/insurMarket/insurMarket",
     "pages/carerServe/carerServe",
-    "pages/aboutMe/aboutMe"
+    "pages/aboutMe/aboutMe",
+    "pages/otherPage/otherPage"
   ],
   "window": {
     "navigationBarTextStyle": "white",
@@ -39,17 +40,7 @@
         "iconPath": "static/images/tab_my.png",
         "selectedIconPath": "static/images/tab_my_active.png"
       }
-    ],
-    "condition": {
-      "current": 0,
-      "list": [
-        {
-          "name": "insurMarket",
-          "path": "pages/insurMarket/insurMarket",
-          "query": "interval=4000&autoplay=false"
-        }
-      ]
-    }
+    ]
   },
   "nvueCompiler": "uni-app",
   "renderer": "auto",
