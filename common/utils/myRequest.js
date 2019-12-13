@@ -19,7 +19,7 @@ class Ajax{
 	    this.url = completeUrl(result.url);
 		this.params = result.params || {};
 		this.method = result.method || "GET";
-		this.showLoad = result.showLoad || true;
+		this.showLoad = result.showLoad || false;
 		this.other = result.other || {};
 		this.requestTask = null;
 	}

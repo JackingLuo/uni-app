@@ -8695,7 +8695,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAjAAAADUCAYAAACC
 Object.defineProperty(exports, "__esModule", { value: true });exports.GET_VIDEO_LIST = void 0;var _myRequest = _interopRequireDefault(__webpack_require__(/*! ../utils/myRequest.js */ 41));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 //获取视频列表
 var GET_VIDEO_LIST = function GET_VIDEO_LIST(params) {
-  return new _myRequest.default({ url: "/uniapp/getVideo", params: params });
+  return new _myRequest.default({ url: "/uniapp/getVideo", params: params, showLoad: false });
 };exports.GET_VIDEO_LIST = GET_VIDEO_LIST;
 
 /***/ }),
