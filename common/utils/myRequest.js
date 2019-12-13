@@ -5,7 +5,7 @@ post方法,post请求
 stop方法,终止请求方法
 */
 //公共前缀
-const baseUrl = "";
+const baseUrl = "http://luojiaxin.com/api";
 
 //是否是完整url
 const completeUrl = (url) => {
@@ -78,33 +78,3 @@ class Ajax{
 	}
 }
 export default Ajax;
-// const myAjax=(url,params,method,showLoad,other)=>{
-// 	if(showLoad){
-// 		uni.showToast({
-// 		    title: '请稍候...',
-// 			icon:"loading"
-// 		});
-// 	}
-// 	let requestTask = null;
-// 	return new Promise((resolve, reject)=>{
-// 		requestTask = uni.request({
-// 		    url: completeUrl(url),
-// 			method:method,
-// 		    data:params,
-// 			...other
-// 		    success: function(res) {
-// 				if(showLoad)uni.hideToast();
-// 		        resolve(res.data)
-// 		    },
-// 			fail:function(err){
-// 				if(showLoad)uni.hideToast();
-// 				uni.showToast({
-// 				    title: err.errMsg,
-// 					duration: 2000,
-// 					icon:"none"
-// 				});
-// 				reject(err)
-// 			}
-// 		})
-// 	})
-// }

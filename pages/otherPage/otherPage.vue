@@ -6,7 +6,7 @@
 </template>
 
 <script>
-	import Ajax from "../../common/utils/myRequest.js"
+	import {GET_VIDEO_LIST} from "../../common/api/api.js";
 	export default {
 		data() {
 			return {
@@ -15,16 +15,20 @@
 		},
 		onLoad:function(options){
 			uni.showToast({
-			    title: options.test,
+			    title: '上一页路由带过来的参数'+options.test,
 			    duration: 2000,
 				icon:"none"
 			});
 		},
 		methods: {
 			startRequest(){
-				this.requestCont = new Ajax({url:"http://www.luojiaxin.com/api/allArticle"});
+				this.requestCont = GET_VIDEO_LIST();
 				this.requestCont.get().then(res=>{
-					console.log(res)
+					uni.showToast({
+					    title: res.data,
+					    duration: 2000,
+						icon:"none"
+					});
 				})
 			},
 			stopRequest(){

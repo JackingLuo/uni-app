@@ -7,12 +7,12 @@
 		<view class="videoBody" v-for="(item,index) in videoList" :key="index">
 			<view class="item">
 				 <view>
-					<video :id="'myVideo'+index" :src="item.src"  v-if="item.showVideo"
+					<video :id="'myVideo'+index" :src="item.video_src"  v-if="item.showVideo"
 						@error="videoErrorCallback" :danmu-list="item.danmuList" enable-danmu danmu-btn controls>
 					</video>
 					<view class="defaultImg" v-else>
 						<!-- 默认视频的图片,暂停按钮 -->
-						<image :src="item.videoImg" mode="aspectFill"></image>
+						<image :src="item.default_img" mode="aspectFill"></image>
 						<uni-icon type="" class="iconfont icon-bofang otherStyle"  @tap="whereVideo(index)"></uni-icon>
 					</view>
 				</view>
@@ -37,53 +37,22 @@
 </template>
 
 <script>
+	import {GET_VIDEO_LIST} from "../../common/api/api.js";
 	export default {
 		data() {
 			return {
 				showLoding:false,
 				showMore:false,
 				moreTip:"加载中...",
-				videoList:[{
-					src:"http://vd4.bdstatic.com/mda-jjkfpke6n90q9t7m/sc/mda-jjkfpke6n90q9t7m.mp4",
-					text:'关于视频的描述',
-					videoImg:require("@/static/images/video_img1.png"),
-					playNum:120,
-					author:'作者',
-					authorHeader:"",
-					goods:100,
-					showVideo:false,
-					danmuList:[{
-					    text: '第 1s 出现的弹幕',
-					    color: '#ff0000',
-					    time: 1
-					},
-					{
-					    text: '第 3s 出现的弹幕',
-					    color: '#ff00ff',
-					    time: 3
-					}]
-				},{
-					src:"http://vd2.bdstatic.com/mda-je6r0ggchviruncv/sc/mda-je6r0ggchviruncv.mp4",
-					text:'关于视频的描述',
-					videoImg:require("@/static/images/video_img2.png"),
-					playNum:120,
-					author:'作者',
-					authorHeader:"",
-					goods:100,
-					showVideo:false,
-					danmuList:[{
-					    text: '第 1s 出现的弹幕',
-					    color: '#ff0000',
-					    time: 1
-					},
-					{
-					    text: '第 3s 出现的弹幕',
-					    color: '#ff00ff',
-					    time: 3
-					}]
-				}]
-				
+				requestCont:null,
+				currentPage:1,
+				nums:2,
+				videoList:[],
+				timer:null
 			}
+		},
+		onLoad:function(){
+			this.getVideoList()
 		},
 		//页面隐藏时暂停
 		onHide:function(){
@@ -99,17 +68,31 @@
 		// 监听上拉加载过程
 		onReachBottom(){
 			 // console.log("到底了,要重新拉取数据了")
+			 clearTimeout(this.timer)
 			 this.showMore = true;
-			 setTimeout(()=> {
-				this.moreTip = "没有更多了";
-				setTimeout(()=>{
-					this.showMore = false;
-					this.moreTip = "加载中...";
-				},500)
-			 }, 1500);
+			 this.currentPage++;
+			 this.getVideoList()
 		},
 		methods: {
-			// 去请求数据
+			//请求:获取video视频列表
+			getVideoList(){
+				this.requestCont = GET_VIDEO_LIST({currentPage:this.currentPage,nums:this.nums});
+				this.requestCont.post().then(res=>{
+					if(res.data.length>0){
+						for(let val of res.data){
+							val.showVideo = false;
+							this.videoList.push(val)
+						}
+					}else{
+						this.moreTip = "没有更多了";
+						this.timer = setTimeout(()=>{
+							this.showMore = false;
+							this.moreTip = "加载中...";
+						},500)
+					}
+				})
+			},
+			// 刷新数据
 			getRes(){
 				setTimeout(()=> {
 				    uni.stopPullDownRefresh()

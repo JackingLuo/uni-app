@@ -29,7 +29,7 @@
 			"style": {
 				"navigationBarTitleText": "车主服务",
 				"enablePullDownRefresh": true,
-				"onReachBottomDistance":40
+				"onReachBottomDistance":30
 			}
 		},
 		{

@@ -122,7 +122,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var uniCard = function uniCard() {return Promise.all(/*! import() | components/uni-card */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uni-card")]).then(__webpack_require__.bind(null, /*! ../../components/uni-card.vue */ 48));};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var uniCard = function uniCard() {return Promise.all(/*! import() | components/uni-card */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uni-card")]).then(__webpack_require__.bind(null, /*! ../../components/uni-card.vue */ 61));};var _default =
 
 
 
