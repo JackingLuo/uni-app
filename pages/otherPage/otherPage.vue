@@ -23,7 +23,7 @@
 		methods: {
 			startRequest(){
 				this.requestCont = GET_VIDEO_LIST();
-				this.requestCont.get().then(res=>{
+				this.requestCont.post().then(res=>{
 					uni.showToast({
 					    title: res.data,
 					    duration: 2000,
