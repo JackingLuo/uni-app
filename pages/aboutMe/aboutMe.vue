@@ -45,6 +45,7 @@
 </template>
 
 <script>
+	import uploadImg from "../../common/utils/uploadImg.js"
 	import myList from "../../common/dictionaries/aboutMeDic.js"
 	export default {
 		data() {
@@ -83,13 +84,19 @@
 			//图片上传功能
 			updateHead(){
 				let that = this;
-				uni.chooseImage({
-				    count: 1, //默认9
-				    sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有
-				    sourceType: ['album','camera'], //从相册选择
-				    success: function (res) {
-				        that.headImg = res.tempFilePaths[0]
-				    }
+				//操作照片的本地路径
+				let fn=(imgs)=>{}
+				//上传失败的回调函数
+				let failCallback = (img)=>{}
+				let options = {
+				  count:9,
+				  fn: fn,
+				  failCallback: failCallback,
+				  storageName:'',
+				  formData: {}
+				}
+				uploadImg(options).then(res=>{
+					console.log(res)
 				})
 			},
 			//其他功能校验

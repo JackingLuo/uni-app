@@ -6,7 +6,7 @@
 </template>
 
 <script>
-	import {GET_VIDEO_LIST} from "../../common/api/api.js";
+	import {TEST_REQUEST} from "../../common/api/api.js";
 	export default {
 		data() {
 			return {
@@ -22,7 +22,7 @@
 		},
 		methods: {
 			startRequest(){
-				this.requestCont = GET_VIDEO_LIST();
+				this.requestCont = TEST_REQUEST();
 				this.requestCont.post().then(res=>{
 					uni.showToast({
 					    title: res.data,

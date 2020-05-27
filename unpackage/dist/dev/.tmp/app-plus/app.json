@@ -48,7 +48,7 @@
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "tpApp",
+  "appname": "仿太平官微",
   "compilerVersion": "2.4.2",
   "usingComponents": {}
 }
